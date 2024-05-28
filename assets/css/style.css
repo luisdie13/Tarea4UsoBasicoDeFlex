@@ -41,6 +41,9 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+
 }
 
 .form.signup .signup {
@@ -49,8 +52,8 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    padding: 10px 40px 10px 40px;
-    border-radius: 10px;
+    padding: 10px 0px 10px 0px;
+    border-radius: 10px 0px 10px 0px;
     background-color: #9b4343;
 }
 
@@ -69,13 +72,23 @@ label {
 
   /* Optional Styles for Buttons and Separator Lines */
 
-.separator-line {
+.login-separator-component {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.login-separator-component.split-line .separator-line {
+    justify-content: center;
+    align-items: center;
     width: 200px;
     border: .5px solid #c5c7d0;
     margin: 16px;
-    padding: 0;
-    font: inherit;
-    
+}
+
+.alternative-signup {
+    font-size: 1.5em;
 }
 
 .social-login-provider {
@@ -83,24 +96,28 @@ label {
     align-items: center;
     justify-content: space-between;
     padding: 1px 15px 1px 10px; /* Adjust padding for button size */
-    border: 1px solid #ddd;
+    border: 1px;
     border-radius: 5px;
     cursor: pointer;
 }
 
-.social-login-provider img {
-    width: 20px;
-    height: 20px;
+.social-login-logo {
+    width: 5%;
+    justify-content:start;
+    align-items: flex-start;
+    text-align: start;
 }
 
+
+
 .social-login-provider .social-login-provider name {
-    font-weight: bold;
+    border: none;
 }
 
 .signup .signup-button {
-    background-color: #0c0e0c; /* Example color */
+    background-color: #0c0e0c; 
     color: white;
-    padding: 10px 20px; /* Adjust padding for button size */
+    padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -108,16 +125,25 @@ label {
     width: 320px;
     height: 20px;
     justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .signup .provider {
-    background-color: #0c0e0c; /* Example color */
-    color: white;
-    padding: 10px 20px; /* Adjust padding for button size */
+    background-color: #bebcbc;
+    color: rgb(8, 8, 8);
+    padding: 10px 20px; 
     border: none;
     border-radius: 5px;
     cursor: pointer;
     margin: 0 auto;   
+    width: 320px;
+    height: 20px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 input[type="email"] {
@@ -126,4 +152,25 @@ input[type="email"] {
     padding: 10px; 
     border: 1px solid #ddd;
     border-radius: 5px;
+}
+
+.disclaimer {
+    display: flex;
+    font-size: normal;
+    flex-wrap: wrap;
+    color: #808080;
+    text-align: center;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.disclaimer a {
+    color: #0a0a0a;
+    text-decoration: none;
+}
+
+.disclaimer a:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
