@@ -114,6 +114,7 @@ body .social-login-wrapper .social-login-component .provider .social-login-logo 
 
 img {
     align-self: flex-start;
+    margin-right: 10px;
 }
 
 .social-login-provider .social-login-provider name {
@@ -184,8 +185,10 @@ input[type="email"] {
 .contacts {
     display: flex;
     align-items: flex-end;
-    margin: 200px 200px 10px 0px;
+    margin: 200px 50px 10px 900px;
     flex-direction: column;
+    border: solid rgb(243, 241, 241);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .image {
@@ -198,7 +201,8 @@ input[type="email"] {
 }
 
 .list {
-    font-size: 1.50em;
+    font-size: 1.25em;
+    padding-right: 240px;
 }
 
 .mylist {
@@ -206,11 +210,5 @@ input[type="email"] {
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
-}
-
-.personas {
-    display: inline-block;
-    flex-direction: column;
-    justify-content:right;
-    margin-left: 100px;
+    padding-right: 70px;
 }
