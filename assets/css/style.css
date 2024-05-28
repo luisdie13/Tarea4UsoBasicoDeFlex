@@ -77,6 +77,9 @@ label {
     display: flex;
     justify-content: center;
     align-items: center;   
+    flex-direction: row;
+    vertical-align: middle;
+    width: 60%;
 }
 
 .login-separator-component.split-line .separator-line {
@@ -88,30 +91,36 @@ label {
 }
 
 .alternative-signup {
-    font-size: 1.25em;
+    font-size: 1em;
+    width: 100%;
+    color: #b4b4b4;
 }
 
 .social-login-provider {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1px 15px 1px 10px; /* Adjust padding for button size */
+    padding: 15px 135px 15px 10px; 
     border: 1px;
     border-radius: 5px;
     cursor: pointer;
 }
 
-.social-login-logo {
-    width: 5%;
-    justify-content:start;
-    align-items: flex-start;
-    text-align: start;
+body .social-login-wrapper .social-login-component .provider .social-login-logo {
+    width: 4%;
+    align-self: flex-start;
+    padding-top: 7px;
 }
 
-
+img {
+    align-self: flex-start;
+}
 
 .social-login-provider .social-login-provider name {
+    display: flex;
     border: none;
+    justify-self: center;
+    align-self: center;
 }
 
 .signup .signup-button {
@@ -123,7 +132,7 @@ label {
     cursor: pointer;
     margin: 0 auto;
     width: 320px;
-    height: 20px;
+    height: 30px;
     justify-content: center;
     display: flex;
     flex-direction: column;
@@ -131,18 +140,11 @@ label {
 }
 
 .signup .provider {
-    background-color: #bebcbc;
-    color: rgb(8, 8, 8);
-    padding: 10px 20px; 
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin: 0 auto;   
-    width: 320px;
-    height: 20px;
-    justify-content: center;
     display: flex;
-    flex-direction: column;
+    border: none;
+    width: 320px;
+    height: 30px;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -156,18 +158,20 @@ input[type="email"] {
 
 .disclaimer {
     display: flex;
-    font-size: normal;
+    font-size: 1em;
     flex-wrap: wrap;
     color: #808080;
     text-align: center;
     margin-top: 10px;
     justify-content: center;
     align-items: center;
+    width: 60%;
 }
 
 .disclaimer a {
     color: #0a0a0a;
     text-decoration: none;
+    margin: 0px 5px 0px 5px;
 }
 
 .disclaimer a:hover {
