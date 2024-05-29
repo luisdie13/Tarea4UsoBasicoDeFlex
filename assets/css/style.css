@@ -248,3 +248,17 @@ input[type="email"] {
 .photo {
     border-radius: 100%;
 }
+
+.groupname {
+    display: flex;
+    flex-direction: row;
+}
+
+.posteando {
+    margin-left: 60px;
+    margin-top: -30px;
+}
+
+.imagepost {
+    border: solid rgb(247, 245, 245);
+}
