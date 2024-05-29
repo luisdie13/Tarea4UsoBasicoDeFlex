@@ -212,3 +212,39 @@ input[type="email"] {
     flex-direction: column;
     padding-right: 70px;
 }
+
+/*styles for the posts*/
+
+.post1 {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+.post2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;
+}
+
+.post3 {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-self: flex-end;
+}
+
+.alineacion {
+    display: flex;
+    flex-direction: row;
+}
+
+.enlistar {
+    list-style-type: none;
+}
+
+.photo {
+    border-radius: 100%;
+}
