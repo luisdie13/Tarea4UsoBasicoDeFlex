@@ -262,3 +262,20 @@ input[type="email"] {
 .imagepost {
     border: solid rgb(247, 245, 245);
 }
+
+.heart {
+    width: 3%;
+    height: 3%;
+    margin-bottom: -2px;
+    margin-right: 0px;
+}
+
+.comments {
+    width: 2%;
+    height: 2%;
+    margin-right: 0px;
+}
+
+.tiempo {
+    color: #c5c7d0;
+}
