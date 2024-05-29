@@ -279,3 +279,10 @@ input[type="email"] {
 .tiempo {
     color: #c5c7d0;
 }
+
+.dots {
+    width: 11%;
+    height: 50%;
+    margin-bottom: -5px;
+    margin-left: 50px;
+}
